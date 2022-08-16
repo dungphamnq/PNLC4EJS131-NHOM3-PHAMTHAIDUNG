@@ -5,7 +5,7 @@ let c = str.slice(1, 8); // "ôm nay "
 let d = str.slice(9, 18); // "gày thứ 7"
 
 let str1 = a.concat(c, b, d);
-console.log(str1);
+console.log("str1", str1);
 
 let g = str.slice(1, 3);
 let h = str.slice(4, 17);
