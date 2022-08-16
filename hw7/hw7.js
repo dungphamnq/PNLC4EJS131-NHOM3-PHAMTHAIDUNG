@@ -5,16 +5,26 @@ let c = str.slice(1, 8);
 let d = str.slice(9, 18); 
 
 let str1 = a.concat(c, b, d);
-console.log("str1", str1);
+// console.log("str1", str1);
 
 let g = str.slice(1, 3);
 let h = str.slice(4, 17);
 let str2 = a.concat(g, h, "8");
 
-console.log("str2", str2);
+// console.log("str2", str2);
 
 let greeting = "Hello. My name is John"
-console.log("greeting", greeting.charAt(9))
+
+
+// console.log("greeting", greeting.charAt(8))
+
+let str3 = "The morning is upon us."
+// console.log("str3", str3.slice(12, 22))
+
+let str4 = "Hello"
+let str5 = "World"
+//  console.log(str4.concat(" ", str5))
+
 
 
 
